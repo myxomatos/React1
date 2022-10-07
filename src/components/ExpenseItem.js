@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+
+import "./ExpenseItem.css";
 
 const ExpenseItem = () => {
   return (
-    <h2>Expense item!</h2>
-  )
-}
+    <div className="expense-item">
+      <div>October 8 2022</div>
+      <div className="expense-item__description">
+        <h2>Car Insurance</h2>
+        <div className="expense-item__price">$294,60</div>
+      </div>
+    </div>
+  );
+};
 
-export default ExpenseItem
+export default ExpenseItem;
